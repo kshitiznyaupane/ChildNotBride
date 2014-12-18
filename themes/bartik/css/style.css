@@ -313,10 +313,10 @@ h1#site-name {
   font-weight: normal;
 }
 #site-slogan {
-  font-size: 0.929em;
-  margin-top: 7px;
-  word-spacing: 0.1em;
-  font-style: italic;
+    font-size: 1.25em;
+    font-style: italic;
+    margin-top: 140px;
+    word-spacing: 0.1em;
 }
 /* Region header blocks. */
 .region-header .block {
@@ -1638,4 +1638,38 @@ div.admin-panel .description {
 }
 #footer-wrapper .poll .bar .foreground {
   background-color: #ddd;
+}/*Added styles*/
+#main-menu-links li{
+  float: right;
+}
+#site-name{
+  display: none;
+}
+.stat-image{
+    background: url("../images/12.jpg") no-repeat scroll 0 0 / 540px 368px rgba(0, 0, 0, 0);
+    color: transparent;
+    content: ".";
+    height: 340px;
+    width: 525px;
+}
+.flexslider .slides{
+  margin: 0;
+  padding: 0;
+}
+.region-content ol{
+  margin: 0;
+  padding: 0 0 40px 0;
+}
+.panels-flexible-1 .panels-flexible-region-inside{
+  padding-left: 1em;
+}
+.pane-1 .body a{
+    background: #C10518;
+    border-radius: 10px;
+    color: #ccc;
+    padding: 10px;
+    text-decoration: none;
+}
+.pane-1 .pane-content{
+  padding: 10px;
 }
